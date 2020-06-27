@@ -1,0 +1,634 @@
+body,html{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+	overflow: auto;
+}
+
+::-webkit-scrollbar-track {
+	background: white;
+	border-radius:50px;
+	overflow: auto;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,0.2);
+	overflow: auto;
+}
+
+
+header{
+    background:white;
+    height:4em;
+    position: fixed;
+    padding:10px;
+    width:100%;
+    z-index:1;
+}
+
+figure{
+    width:100%;
+    background: transparent;
+}
+
+figure p {
+    color:black;
+    text-decoration: none;
+    padding:0;
+    margin:0;
+}
+
+figure .tabsBanner button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    font-family: 'Playfair Display', serif;
+    font-size:18px;
+    padding:6px 15px;
+}
+
+figure button:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.tabsBanner{
+    text-align: center;
+}
+
+.tabsBanner button.active{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.menuBar{
+    cursor: pointer;
+    z-index: 2;
+}
+
+nav ul{
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    left:0;
+    bottom:0;
+    height: 0%;
+    margin:0;
+    list-style: none;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    z-index: 150;
+    padding-inline-start: 0px;
+}
+
+nav ul li a:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.exitButton img{
+    width: 25px;
+    cursor: pointer;
+}
+
+@-webkit-keyframes fadeEffect {   
+    from {transform: translateX(-800px);opacity: 0;}
+    to {transform: translateX(0px);opacity: 1;} 
+}
+  
+@keyframes fadeEffect {
+    from {transform: translateX(-800px);opacity: 0;}
+    to {transform: translateX(0px);opacity: 1;}
+}
+
+.tabcontent{
+    display: none;
+    width:100%;
+    overflow: hidden;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+.heroButtons button{
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.9);
+    background-color: transparent;
+    font-family: 'Playfair Display', serif;
+    transition: 0.4s ease-in-out;
+}
+
+.heroButtons button:hover{
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    cursor: pointer;
+}
+
+nav ul::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media only screen and (max-width:640px){
+    figure{
+        display: none;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding:10px;
+        bottom:0;
+        height:2.5em;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+
+    header figcaption{
+        padding:10px;
+    }
+
+    .menuBar{
+        width: 20px;
+        padding:10px 20px;
+        margin:0px 35px;
+    }
+
+    nav ul li a{
+        text-align: center;
+        font-size: 1.9em;
+        display: block;
+        color:white;
+        padding:50px 0px 0px 0px;
+        text-decoration: none;
+    }
+
+    .exitButton{
+        margin-bottom: 1em;
+        margin: 20% 20% 0% 20%;
+        text-align: right;
+    }
+
+    .exitButton img{
+        width: 15px;
+    }
+
+    .tabcontent .aboutBanner{
+        display: none;
+    }
+}
+@media only screen and (min-width:641px) and (max-width:768px){
+    figure{
+        display: none;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding:10px;
+        bottom:0;
+        height:2.5em;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+
+    header figcaption{
+        padding:10px;
+    }
+
+    .menuBar{
+        width: 20px;
+        padding:10px;
+        margin:0px 140px;
+    }
+
+    nav ul li a{
+        text-align: center;
+        font-size: 1.9em;
+        display: block;
+        color:white;
+        padding:50px 0px 0px 0px;
+        text-decoration: none;
+    }
+
+    .exitButton{
+        margin-bottom: 1em;
+        margin: 20% 20% 0% 20%;
+        text-align: right;
+    }
+
+    .exitButton img{
+        width: 15px;
+    }
+
+    .tabcontent .aboutBanner{
+        display: none;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:900px){
+    figure{
+        display: none;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding:10px;
+        bottom:0;
+        height:2.5em;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+
+    header figcaption{
+        padding:10px;
+    }
+
+    .menuBar{
+        width: 20px;
+        padding:10px;
+        margin:0px 150px;
+    }
+
+    nav ul li a{
+        text-align: center;
+        font-size: 1.9em;
+        display: block;
+        color:white;
+        padding:50px 0px 0px 0px;
+        text-decoration: none;
+    }
+
+    .exitButton{
+        margin-bottom: 1em;
+        margin: 20% 20% 0% 20%;
+        text-align: right;
+    }
+
+    .exitButton img{
+        width: 15px;
+    }
+
+    .tabcontent .aboutBanner{
+        display: none;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:1024px){
+    figure{
+        display : grid;
+        grid-template-columns: 45% 55%;
+    }
+
+    figure button{
+        font-size:18px;
+    }
+
+    figure p{
+        font-size:20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header figcaption{
+        display: none;
+    }
+
+    .tabcontent{
+        height:700px;
+        padding:100px 100px;
+    }
+
+    .tabcontent{
+        height:900px;
+        padding:100px 0px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 65% 40%;
+    }
+
+    .backgroundObject{
+        position: absolute;
+        left:-300px;
+        top:-200px;
+        border-radius:800px;
+        width:900px;
+        height:900px;
+        background: rgba(0,0,0,0.07);
+        z-index: -1;
+    }
+
+    .heroButtons{
+        padding:0px 40px;
+    }
+
+    .heroButtons button{
+        padding: 15px 25px;
+        font-size:23px;
+        border-radius: 40px;
+        margin:0px 20px;
+    }
+
+    .hello{
+        padding:180px 100px 0px 40px;
+    }
+
+    .hello .subHeading{
+        padding:0px 20px 20px 20px;
+    }
+
+    .subHeading .currentPosition{
+        font-size:16px; 
+        padding-bottom: 10px;
+    }
+
+    .subHeading .objectiveSpan{
+        font-size:14px;
+    }
+
+    .hello figcaption{
+        font-size:80px;
+        padding:0px 20px;
+    }
+
+    .illustrationRight img{
+        padding:40px;
+        width:1100px;
+        transform: rotate(20deg);
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    
+    figure{
+        display : grid;
+        grid-template-columns: 55% 45%;
+    }
+
+    figure button{
+        font-size:18px;
+    }
+
+    figure p{
+        font-size:20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header figcaption{
+        display: none;
+    }
+
+    .tabcontent{
+        height:700px;
+        padding:100px 100px;
+    }
+
+    .tabcontent{
+        height:900px;
+        padding:100px 0px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 70% 40%;
+    }
+
+    .backgroundObject{
+        position: absolute;
+        left:-120px;
+        top:-180px;
+        border-radius:700px;
+        width:800px;
+        height:800px;
+        background: rgba(0,0,0,0.07);
+        z-index: -1;
+    }
+
+    .heroButtons{
+        padding:0px 100px;
+    }
+
+    .heroButtons button{
+        padding: 15px 25px;
+        font-size:18px;
+        border-radius: 40px;
+        margin:0px 20px;
+    }
+
+    .hello{
+        padding:180px 100px 0px 100px;
+    }
+
+    .hello .subHeading{
+        padding:0px 20px 20px 20px;
+    }
+
+    .subHeading .currentPosition{
+        font-size:17px; 
+        padding-bottom: 10px;
+    }
+
+    .subHeading .objectiveSpan{
+        font-size:10px;
+    }
+
+    .hello figcaption{
+        font-size:80px;
+        padding:0px 20px;
+    }
+
+    .illustrationRight img{
+        padding:20px;
+        width:1100px;
+        transform: rotate(20deg);
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px){
+
+    figure{
+        display : grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    figure button{
+        font-size:18px;
+    }
+
+    figure p{
+        font-size:20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header figcaption{
+        display: none;
+    }
+
+    .tabcontent{
+        height:900px;
+        padding:100px 0px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 65% 40%;
+    }
+
+    .backgroundObject{
+        position: absolute;
+        left:-180px;
+        top:-280px;
+        border-radius:850px;
+        width:950px;
+        height:950px;
+        background: rgba(0,0,0,0.07);
+        z-index: -1;
+    }
+
+    .heroButtons{
+        padding:0px 100px;
+    }
+
+    .heroButtons button{
+        padding: 15px 25px;
+        font-size:23px;
+        border-radius: 40px;
+        margin:0px 20px;
+    }
+
+    .hello{
+        padding:180px 100px 0px 100px;
+    }
+
+    .hello .subHeading{
+        padding:0px 20px 20px 20px;
+    }
+
+    .subHeading .currentPosition{
+        font-size:18px; 
+        padding-bottom: 10px;
+    }
+
+    .subHeading .objectiveSpan{
+        font-size:16px;
+    }
+
+    .hello figcaption{
+        font-size:100px;
+        padding:0px 20px;
+    }
+
+    .illustrationRight img{
+        padding:80px;
+        width:1100px;
+        transform: rotate(30deg);
+    }
+
+}
+@media only screen and (min-width:1400px){
+    
+    figure{
+        display : grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    figure button{
+        font-size:18px;
+    }
+
+    figure p{
+        font-size:20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header figcaption{
+        display: none;
+    }
+
+    .tabcontent{
+        height:900px;
+        padding:100px 0px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
+        height:100vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .backgroundObject{
+        position: absolute;
+        left:-120px;
+        top:-280px;
+        border-radius:900px;
+        width:1000px;
+        height:1000px;
+        background: rgba(0,0,0,0.07);
+        z-index: -1;
+    }
+
+    .heroButtons{
+        padding:0px 100px;
+    }
+
+    .heroButtons button{
+        padding: 15px 25px;
+        font-size:23px;
+        border-radius: 40px;
+        margin:0px 20px;
+    }
+
+    .hello{
+        padding:180px 100px 0px 100px;
+    }
+
+    .hello .subHeading{
+        padding:0px 20px 20px 20px;
+    }
+
+    .subHeading .currentPosition{
+        font-size:22px; 
+        padding-bottom: 10px;
+    }
+
+    .subHeading .objectiveSpan{
+        font-size:18px;
+    }
+
+    .hello figcaption{
+        font-size:120px;
+        padding:0px 20px;
+    }
+
+    .illustrationRight img{
+        padding:80px;
+        width:1100px;
+        transform: rotate(38deg);
+    }
+
+}
