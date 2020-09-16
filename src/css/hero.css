@@ -52,7 +52,7 @@
     .tabcontent .aboutBanner{
         width:100%;
         max-width: 350px;
-        height:100vh;
+        padding:60px 0;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
