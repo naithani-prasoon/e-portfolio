@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ePortfolio</title>
-    <link rel="stylesheet" href="e-style.css">
+    <link rel="stylesheet" href="css/e-style.css">
+    <link rel="stylesheet" href="css/navabar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -21,10 +27,10 @@
         </figure>
         <figcaption>Prasoon Naithani</figcaption>
         <nav>
-            <img src="hamburgerIcon.png" class="menuBar" id="menuHam" onclick="openNav()">
+            <img src="media/hamburgerIcon.png" class="menuBar" id="menuHam" onclick="openNav()">
             <ul id="contentHam">
                 <li class="exitButton">
-                    <img src="exit.svg" id="exitButton" onclick="closeNav()">
+                    <img src="media/exit.svg" id="exitButton" onclick="closeNav()">
                 </li>
                 <li>
                     <a href="#">Home</a>
@@ -44,9 +50,8 @@
     <div id = "aboutMe" class = "tabcontent">
         <div class = "aboutBanner">
             <div class="textLeft">
+
                 <div class="hello">
-                    <div class="backgroundObject">
-                    </div>
                     <figcaption>
                         Hey There.
                     </figcaption>
@@ -58,14 +63,15 @@
                             Passionately create technical solutions and give life to creative ideas.
                         </div>
                     </div>    
+                    <div class="heroButtons">
+                        <button class="primaryButton">Resume</button>
+                        <button class="secondaryButton">Projects</button>
+                    </div>
                 </div>
-                <div class = "heroButtons">
-                    <button>Resume</button>
-                    <button>Projects</button>
-                </div>
+                
             </div>
             <div class ="illustrationRight">
-                <img src="trial3.png">
+                <img src="media/undraw_code_review_l1q9.svg">
             </div>
         </div>
     </div>
@@ -76,7 +82,7 @@
 
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>
