@@ -3,10 +3,14 @@
     padding:80px 0;
 }
 
+.aboutText{
+    text-align: justify;
+}
+
 @media only screen and (max-width:640px){
 
     .aboutMeInfo{
-        padding:40px 0 80px 0;
+        padding:40px 0;
     }
 
     .aboutMeSections{
@@ -89,20 +93,20 @@
 
     .myImage img{
         width:450px;
-        padding:45px 0;
+        padding:45px 0 0 0;
     }
 
     .myText{
-        padding: 100px 20px;
+        padding: 20px 20px 40px 20px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
     }
 
     .aboutTitle{
-        text-align: left;
+        text-align: center;
         font-size:80px;
-        padding:45px 0 18px 0;
+        padding:0 0 18px 0;
     }
 
     .aboutText{
@@ -110,18 +114,19 @@
         width:500px;
         justify-content: center;
         padding-bottom: 18px;
+        font-size:14px;
     }
 
     .socialMedia{
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .socialMedia img{
         width:30px;
-        margin:0 5px;
+        margin:0 10px;
     }
 }
 
@@ -148,20 +153,20 @@
 
     .myImage img{
         width:450px;
-        padding:45px 0;
+        padding:45px 0 0 0;
     }
 
     .myText{
-        padding: 100px 20px;
+        padding: 20px 20px 40px 20px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
     }
 
     .aboutTitle{
-        text-align: left;
+        text-align: center;
         font-size:80px;
-        padding:45px 0 18px 0;
+        padding:0 0 18px 0;
     }
 
     .aboutText{
@@ -169,18 +174,19 @@
         width:500px;
         justify-content: center;
         padding-bottom: 18px;
+        font-size:14px;
     }
 
     .socialMedia{
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .socialMedia img{
         width:30px;
-        margin:0 5px;
+        margin:0 10px;
     }
 }
 
@@ -188,7 +194,9 @@
 
     .aboutMeSections{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: whitesmoke;
     }
 
@@ -205,39 +213,43 @@
 
     .myImage img{
         width:450px;
-        padding:45px 0;
+        padding:45px 0 0 0;
     }
 
     .myText{
-        padding: 100px 20px;
+        padding: 20px 20px 40px 20px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
     }
 
     .aboutTitle{
-        text-align: left;
+        text-align: center;
         font-size:80px;
-        padding:45px 0 18px 0;
+        padding:0 0 18px 0;
     }
 
     .aboutText{
         font-family: 'Poppins', sans-serif;
         width:450px;
         justify-content: center;
-        padding-bottom: 18px;
+        align-items: center;
+        padding-bottom: 24px;
+        font-size:14px;
+        text-align: justify;
+
     }
 
     .socialMedia{
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .socialMedia img{
         width:30px;
-        margin:0 5px;
+        margin:0 10px;
     }
 }
 
@@ -283,6 +295,7 @@
         width:500px;
         justify-content: center;
         padding-bottom: 18px;
+        font-size:14px;
     }
 
     .socialMedia{
@@ -338,6 +351,7 @@
     .aboutText{
         font-family: 'Poppins', sans-serif;
         width:500px;
+        font-size:18px;
         justify-content: center;
         padding-bottom: 18px;
     }
@@ -396,6 +410,7 @@
         font-family: 'Poppins', sans-serif;
         width:500px;
         justify-content: center;
+        font-size:18px;
         padding-bottom: 18px;
     }
 

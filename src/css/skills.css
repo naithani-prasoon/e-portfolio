@@ -1,0 +1,38 @@
+.skillsBanner{
+    padding:80px 0;
+    width:100%;
+}
+
+.skillsInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsHeading img{
+    width:100px;
+}
+
+.skillsHeading div{
+    font-size: 80px;
+}
+
+@media only screen and (max-width:640px){
+    .skillsBanner{
+        padding:40px 0 80px 0;
+    }
+
+    .skillsHeading img{
+        width: 50px;
+    }
+
+    .skillsHeading div{
+        font-size: 40px;
+    }
+}
