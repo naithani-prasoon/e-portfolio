@@ -1,0 +1,413 @@
+.aboutMeInfo{
+    width:100%;
+    padding:80px 0;
+}
+
+@media only screen and (max-width:640px){
+
+    .aboutMeInfo{
+        padding:40px 0 80px 0;
+    }
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:250px;
+        padding:45px 0 0 0;
+    }
+
+    .myText{
+        padding: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: center;
+        font-size:40px;
+        padding:0 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        padding-bottom: 18px;
+        font-size: 14px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialMedia img{
+        width:25px;
+        margin:0 15px;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:500px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:500px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1024px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:450px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:500px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:500px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}
+
+@media only screen and (min-width:1400px){
+
+    .aboutMeSections{
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+    }
+
+    .myImage{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myText{
+        flex:1;
+    }
+
+    .myImage img{
+        width:450px;
+        padding:45px 0;
+    }
+
+    .myText{
+        padding: 100px 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutTitle{
+        text-align: left;
+        font-size:80px;
+        padding:45px 0 18px 0;
+    }
+
+    .aboutText{
+        font-family: 'Poppins', sans-serif;
+        width:500px;
+        justify-content: center;
+        padding-bottom: 18px;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .socialMedia img{
+        width:30px;
+        margin:0 5px;
+    }
+}

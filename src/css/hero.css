@@ -1,8 +1,3 @@
-.aboutBanner{
-    max-width:1280px;
-    margin:0 auto;
-}
-
 .currentPosition{
     font-family: 'Poppins', sans-serif;
 }
@@ -15,6 +10,8 @@
     display: none;
     width:100%;
     overflow: hidden;
+    max-width:1280px;
+    margin:0 auto;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
 }
@@ -48,10 +45,12 @@
 @media only screen and (max-width:640px){
     .tabcontent{
         height:auto;
-    }
-    .tabcontent .aboutBanner{
         width:100%;
         max-width: 350px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
         padding:40px 0;
         display: flex;
         flex-direction: column-reverse;
@@ -106,10 +105,12 @@
     .tabcontent{
         height:auto;
         padding:100px 0px;
-    }
-    .tabcontent .aboutBanner{
         width:100%;
         max-width: 700px;
+    }
+
+    .tabcontent .aboutBanner{
+        width:100%;
         height:100vh;
         display: flex;
         flex-direction: column-reverse;
@@ -177,10 +178,12 @@
     .tabcontent{
         height:auto;
         padding:100px 0px;
+        max-width: 850px;
+        width:100%;
     }
+
     .tabcontent .aboutBanner{
         width:100%;
-        max-width: 850px;
         height:100vh;
         display: flex;
         flex-direction: column-reverse;
@@ -248,12 +251,13 @@
     .tabcontent{
         height:auto;
         padding:100px 0px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .tabcontent .aboutBanner{
         width:100%;
-        max-width: 1000px;
-        height:100vh;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -321,11 +325,13 @@
     .tabcontent{
         height:auto;
         padding:100px 0px;
+        width:100%;
+        max-width: 1100px;
     }
 
     .tabcontent .aboutBanner{
         width:100%;
-        max-width: 1100px;
+        
         display:flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -392,8 +398,9 @@
 @media only screen and (min-width:1200px) and (max-width:1399px){
 
     .tabcontent{
-        height:900px;
+        height:auto;
         padding:100px 0px;
+        max-width:1200px;
     }
 
     .tabcontent .aboutBanner{
@@ -401,7 +408,6 @@
         overflow: hidden;
         display: flex;
         flex-direction: row;
-        max-width:1200px;
     }
 
     .textLeft{
