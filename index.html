@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/css/hero.css">
     <link rel="stylesheet" href="src/css/about-me.css">
     <link rel="stylesheet" href="src/css/skills.css">
+    <link rel="stylesheet" href="src/css/contact-me.css">
     <link rel="stylesheet" href="src/css/animations.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -24,7 +25,6 @@
                 <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">About Me</button>
                 <button class="tablinks" onclick="openTab(event, 'projects')">Projects</button>
                 <button class="tablinks" onclick="openTab(event, 'experience')">Experience</button>
-                <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
             </div>    
         </figure>
         <figcaption>Prasoon Naithani</figcaption>
@@ -210,10 +210,25 @@
                 </div>
             </div>
         </div>
+        <div class="contact">
+            <div class="contactMeSection">
+                <div class="contactImage">
+                    <img src="src/media/undraw_personal_email_t7nw.svg">
+                </div>
+                <div class="contactForm">
+                    <p>Let's Talk.</p>
+                    <form action="MAILTO:prasoonnaithani@gmail.com" method="POST" enctype="text/plain">
+                        <input type="text" label="Name" placeholder="Name" required>
+                        <input type="email" label="Email ID" placeholder="Email ID" required>
+                        <input type="text" label="Message" placeholder="Message" required id="message">
+                        <input type="submit" value="Send Message" onclick="resetFunction()">
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
     <div id = "projects" class = "tabcontent">projects</div>
     <div id ="experience" class = "tabcontent">experience</div>
-    <div id ="contact" class = "tabcontent" >contact</div>
     <footer>
 
     </footer>

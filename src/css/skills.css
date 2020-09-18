@@ -1,5 +1,5 @@
 .skillsBanner{
-    padding:80px 0;
+    padding:40px 0 40px 0;
     width:100%;
 }
 
@@ -59,7 +59,7 @@
     }
 
     .skillsBanner{
-        padding:40px 0 80px 0;
+        padding:40px 0 40px 0;
     }
 
     .skillsHeading img{
@@ -307,9 +307,6 @@
         margin: 80px auto;
     }
 
-    .skillTab{
-        flex:1;
-    }
 
     .skillsListed{
         flex:1;
@@ -363,13 +360,9 @@
         margin: 80px auto;
     }
 
-    .skillTab{
-        flex:1;
-    }
-
     .skillsListed{
         flex:1;
-        padding:20px;
+        padding:20px 30px;
         text-align: center;
     }
 
@@ -419,13 +412,9 @@
         margin: 80px auto;
     }
 
-    .skillTab{
-        flex:1;
-    }
-
     .skillsListed{
         flex:1;
-        padding:20px;
+        padding:20px 40px;
         text-align: center;
     }
 
@@ -475,13 +464,11 @@
         margin: 80px auto;
     }
 
-    .skillTab{
-        flex:1;
-    }
+
 
     .skillsListed{
         flex:1;
-        padding:20px;
+        padding:20px 40px;
         text-align: center;
     }
 
@@ -504,18 +491,19 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .skill{
         margin:5px;
         padding:5px 8px;
-        width:120px;
+        width:150px;
         background:rgba(24,123,202,0.2);
         text-align:center;
     }
 
     .skill p{
-        font-size:16px;
+        font-size:18px;
         font-family: 'Poppins', sans-serif;
     }
 }

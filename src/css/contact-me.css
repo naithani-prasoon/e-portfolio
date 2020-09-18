@@ -1,0 +1,103 @@
+.contactMeSection{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    background:rgba(24,123,202,0.1);
+    padding:45px 0;
+    margin: 0 0 150px 0;
+}
+
+.contactImage{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    width:100%;
+}
+
+.contactImage img{
+    width:500px;
+    margin:0 auto;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contactForm p{
+    font-size: 80px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:100%;
+    padding:20px 0;
+}
+
+input{
+    width:400px;
+    margin:20px 0;
+    padding:10px;
+    border:2px solid black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color:#187bca;
+    font-weight: bold;
+}
+
+input[type="text"]:focus{
+    color:black;
+}
+
+#message{
+    height:100px;
+}
+
+input[type="submit"]{
+    background-color: #187bca;
+    color:white;
+    font-weight: bold;
+    border-radius:5px;
+    padding:15px;
+    transform: translateX(10px);
+    transition: 0.4s ease-in-out;
+    border:none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width:640px){
+    .contactMeSection{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding:45px 0;
+    }
+
+    .contactForm p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    input{
+        width:280px;
+        font-size: 14px;
+    }
+
+    .contactImage img{
+        width:200px;
+        margin:0 auto;
+    }
+}
