@@ -13,6 +13,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .skillsHeading img{
@@ -23,16 +24,498 @@
     font-size: 80px;
 }
 
+.skillTab div.active .shapeWhenActive{ 
+    font-weight: bold;
+    background-color: #187bca;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    opacity:0.1;
+    border-radius: 50px;
+    transform: translateX(-20px);
+}
+
+.skillTab div.active p{
+    font-weight: bold;
+}
+
 @media only screen and (max-width:640px){
+
+    .skillsInfo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillTab div.active .shapeWhenActive{ 
+        width:0px;
+        height: 0px;
+    }
+
+    .skillTab div.active p{
+        font-weight: bold;
+        padding:5px 8px;
+        border:1px solid black;
+    }
+
     .skillsBanner{
         padding:40px 0 80px 0;
     }
 
     .skillsHeading img{
-        width: 50px;
+        width: 60px;
     }
 
     .skillsHeading div{
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .skillsSection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        width:100%;
+        margin: 20px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .skillsTab p{
+        font-size:16px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:14px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px){
+    .skillsInfo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillTab div.active .shapeWhenActive{ 
+        width:0px;
+        height: 0px;
+    }
+
+    .skillTab div.active p{
+        font-weight: bold;
+        padding:5px 8px;
+        border:1px solid black;
+    }
+
+    .skillsBanner{
+        padding:40px 0 80px 0;
+    }
+
+    .skillsHeading img{
+        width: 60px;
+    }
+
+    .skillsHeading div{
+        font-size: 30px;
+    }
+
+    .skillsSection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        width:100%;
+        margin: 20px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .skillsTab p{
+        font-size:16px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:14px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+    .skillsInfo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillTab div.active .shapeWhenActive{ 
+        width:0px;
+        height: 0px;
+    }
+
+    .skillTab div.active p{
+        font-weight: bold;
+        padding:5px 8px;
+        border:1px solid black;
+    }
+
+    .skillsBanner{
+        padding:40px 0 80px 0;
+    }
+
+    .skillsHeading img{
+        width: 60px;
+    }
+
+    .skillsHeading div{
+        font-size: 30px;
+    }
+
+    .skillsSection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        width:100%;
+        margin: 20px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .skillsTab p{
+        font-size:16px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:14px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1024px){
+    .skillsSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        width:100%;
+        margin: 80px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding:20px;
+    }
+
+    .skillsTab p{
+        font-size:30px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .skillsSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        width:100%;
+        margin: 80px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding:20px;
+    }
+
+    .skillsTab p{
+        font-size:30px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px){
+    .skillsSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        width:100%;
+        margin: 80px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding:20px;
+    }
+
+    .skillsTab p{
+        font-size:30px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .skillsSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        width:100%;
+        margin: 80px auto;
+    }
+
+    .skillTab{
+        flex:1;
+    }
+
+    .skillsListed{
+        flex:1;
+        padding:20px;
+        text-align: center;
+    }
+
+    .skillsTab{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding:20px;
+    }
+
+    .skillsTab p{
+        font-size:30px;
+        cursor: pointer;
+    }
+
+    .tabDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill{
+        margin:5px;
+        padding:5px 8px;
+        width:120px;
+        background:rgba(24,123,202,0.2);
+        text-align:center;
+    }
+
+    .skill p{
+        font-size:16px;
+        font-family: 'Poppins', sans-serif;
     }
 }

@@ -17,13 +17,13 @@
 
 </head>
 <body>
-    <header id="changeOnScroll">
+    <header>
         <figure>
             <p>Prasoon Naithani</p>
             <div class = "tabsBanner">
                 <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">About Me</button>
                 <button class="tablinks" onclick="openTab(event, 'projects')">Projects</button>
-                <button class="tablinks" onclick="openTab(event, 'skills')">Skills</button>
+                <button class="tablinks" onclick="openTab(event, 'experience')">Experience</button>
                 <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
             </div>    
         </figure>
@@ -66,7 +66,7 @@
                     </div>    
                     <div class="heroButtons">
                         <button class="primaryButton">Resume</button>
-                        <button class="secondaryButton">Projects</button>
+                        <button class="secondaryButton" onclick="openTab(event, 'projects')">Projects</button>
                     </div>
                 </div>
                 
@@ -82,7 +82,7 @@
                 </div>
                 <div class ="myText">
                     <div class="aboutTitle">
-                        Title.
+                        About Me.
                     </div>
                     <div class="aboutText">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -100,13 +100,119 @@
             <div class="skillsInfo">
                 <div class="skillsHeading">
                     <img src="src/media/undraw_stepping_up_g6oo.svg">
-                    <div>Skills</div>
+                    <div>Skills and Courses</div>
+                </div>
+                <div class="skillsSection">
+                    <div class="skillTab">
+                        <div class="skillsTab" onclick="openSkillTab(event, 'technical')" id="defaultSkillOpen">
+                            <p>Technical Skills</p>
+                            <div class="shapeWhenActive"></div>
+                        </div>
+                        <div class="skillsTab" onclick="openSkillTab(event, 'soft')">
+                            <p>Soft Skills</p>
+                            <div class="shapeWhenActive"></div>
+                        </div>
+                        <div class="skillsTab" onclick="openSkillTab(event, 'courses')">
+                            <p>Courses</p>
+                            <div class="shapeWhenActive"></div>
+                        </div>
+                    </div>
+                    <div class="skillsListed">
+                        <div class="tabDetails" id="technical">
+                            <div class="skill">
+                                <p>Scala</p>
+                            </div>
+                            <div class="skill">
+                                <p>Python</p>
+                            </div>
+                            <div class="skill">
+                                <p>C Language</p>
+                            </div>
+                            <div class="skill">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skill">
+                                <p>HTML5</p>
+                            </div>
+                            <div class="skill">
+                                <p>CSS</p>
+                            </div>
+                            <div class="skill">
+                                <p>React.js</p>
+                            </div>
+                            <div class="skill">
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="skill">
+                                <p>MS Office</p>
+                            </div>
+                            <div class="skill">
+                                <p>Adb Photoshop</p>
+                            </div>
+                            <div class="skill">
+                                <p>Adb PremierPro</p>
+                            </div>
+                            <div class="skill">
+                                <p>Adb Photoshop</p>
+                            </div>
+                        </div>
+                        <div class="tabDetails" id="soft">
+                            <div class="skill">
+                                <p>Team Spirit</p>
+                            </div>
+                            <div class="skill">
+                                <p>Hardworking</p>
+                            </div>
+                            <div class="skill">
+                                <p>Dedicated</p>
+                            </div>
+                            <div class="skill">
+                                <p>Energetic</p>
+                            </div>
+                            <div class="skill">
+                                <p>Flexible</p>
+                            </div>
+                            <div class="skill">
+                                <p>Leadership</p>
+                            </div>
+                            <div class="skill">
+                                <p>Goal Oriented</p>
+                            </div>
+                            <div class="skill">
+                                <p>Advocacy</p>
+                            </div>
+                            <div class="skill">
+                                <p>Work Ethic</p>
+                            </div>
+                            
+                        </div>
+                        <div class="tabDetails" id="courses">
+                            <div class="skill">
+                                <p>Data <br>Structures</p>
+                            </div>
+                            <div class="skill">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="skill">
+                                <p>Front-End Development</p>
+                            </div>
+                            <div class="skill">
+                                <p>System Programming</p>
+                            </div>
+                            <div class="skill">
+                                <p>Discrete Structures</p>
+                            </div>
+                            <div class="skill">
+                                <p>Linear <br>Algebra</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div id = "projects" class = "tabcontent">projects</div>
-    <div id ="skills" class = "tabcontent">skills</div>
+    <div id ="experience" class = "tabcontent">experience</div>
     <div id ="contact" class = "tabcontent" >contact</div>
     <footer>
 

@@ -5,6 +5,7 @@ header{
     padding:10px;
     width:100%;
     z-index:1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 figure{
@@ -34,13 +35,7 @@ figure button:hover{
     cursor: pointer;
 }
 
-.tabsBanner{
-    text-align: center;
-}
 
-.tabsBanner button.active{
-    background-color: rgba(0,0,0,0.05);
-}
 
 .menuBar{
     cursor: pointer;

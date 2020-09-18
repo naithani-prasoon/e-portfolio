@@ -14,14 +14,22 @@ function openTab(evt, tabName) {
 
 document.getElementById("defaultOpen").click();
 
-function navbarFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      document.getElementById("changeOnScroll").style.backgroundColor = "black";
-      
-  } else {
-      document.getElementById("changeOnScroll").style.backgroundColor = "white";
+function openSkillTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabDetails");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
+  tablinks = document.getElementsByClassName("skillsTab");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "flex";
+  evt.currentTarget.className += " active";
 }
+
+document.getElementById("defaultSkillOpen").click();
+
 
 function openNav() {
     document.getElementById("contentHam").style.height = "100%";

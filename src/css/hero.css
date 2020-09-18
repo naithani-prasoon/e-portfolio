@@ -42,6 +42,14 @@
     cursor: pointer;
 }
 
+.tabsBanner{
+    text-align: center;
+}
+
+.tabsBanner button.active{
+    background-color: rgba(0,0,0,0.05);
+}
+
 @media only screen and (max-width:640px){
     .tabcontent{
         height:auto;
