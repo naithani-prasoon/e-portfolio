@@ -112,7 +112,7 @@
 @media only screen and (min-width:641px) and (max-width:768px){
     .tabcontent{
         height:auto;
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
         width:100%;
         max-width: 700px;
     }
@@ -185,7 +185,7 @@
 
     .tabcontent{
         height:auto;
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
         max-width: 850px;
         width:100%;
     }
@@ -258,7 +258,7 @@
     
     .tabcontent{
         height:auto;
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
         max-width: 1000px;
         width: 100%;
     }
@@ -332,7 +332,7 @@
 
     .tabcontent{
         height:auto;
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
         width:100%;
         max-width: 1100px;
     }
@@ -407,7 +407,7 @@
 
     .tabcontent{
         height:auto;
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
         max-width:1200px;
     }
 
@@ -478,7 +478,7 @@
 @media only screen and (min-width:1400px){
 
     .tabcontent{
-        padding:100px 0px;
+        padding:100px 0px 40px 0;
     }
 
     .tabcontent .aboutBanner{
