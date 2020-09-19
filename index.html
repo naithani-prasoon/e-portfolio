@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/about-me.css">
     <link rel="stylesheet" href="src/css/skills.css">
     <link rel="stylesheet" href="src/css/contact-me.css">
+    <link rel="stylesheet" href="src/css/project-hero.css">
     <link rel="stylesheet" href="src/css/animations.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -22,8 +23,8 @@
         <figure>
             <p>Prasoon Naithani</p>
             <div class = "tabsBanner">
-                <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">About Me</button>
-                <button class="tablinks" onclick="openTab(event, 'projects')">Projects</button>
+                <button class="tablinks" onclick="openTab(event, 'aboutMe')" >About Me</button>
+                <button class="tablinks" onclick="openTab(event, 'projects')" id="defaultOpen">Projects</button>
                 <button class="tablinks" onclick="openTab(event, 'experience')">Experience</button>
             </div>    
         </figure>
@@ -239,7 +240,19 @@
             </div>
         </footer>
     </div>
-    <div id = "projects" class = "tabcontent">projects</div>
+    <div id = "projects" class = "tabcontent">
+        <div class="projectBanner">
+            <div class="projectImage">
+                <img src="src/media/undraw_coding_6mjf.svg">
+            </div>
+            <div class="projectHeading">
+                <div class="projectTitle">Projects.</div>
+                <div class="githubButton">
+                    <button><img src="src/media/github_icon_button.svg"><a href="https://github.com/naithani-prasoon" target="blank">View on Github</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id ="experience" class = "tabcontent">experience</div>
     <footer>
 

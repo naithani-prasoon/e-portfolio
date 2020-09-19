@@ -1,0 +1,186 @@
+.projectBanner{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0 40px 0;
+}
+
+.projectImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projectImage img{
+    width:500px;
+    margin-right: 60px;
+}
+
+.projectTitle{
+    font-size: 80px;
+    width:100%;
+    padding:20px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.githubButton{
+    text-align: center;
+}
+
+.githubButton button{
+    background-color: #187bca;
+    color:white;
+    padding:10px 25px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.githubButton img{
+    width: 30px;
+    padding:0 5px 0 0;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    fill: white;
+}
+
+.githubButton a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-left:15px
+}
+
+@media only screen and (max-width:640px){
+    .projectBanner{
+        flex-direction: column;
+    }
+
+    .projectHeading{
+        padding:10px;
+    }
+
+    .projectTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    .projectImage img{
+        width:300px;
+        margin:0;
+    }
+
+    .githubButton button{
+        margin:15px 0;
+    }
+
+    .githubButton a{
+        font-size: 14px;
+    }
+
+    .githubButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px){
+    .projectBanner{
+        flex-direction: column;
+    }
+
+    .projectHeading{
+        padding:10px;
+    }
+
+    .projectTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    .projectImage img{
+        width:400px;
+        margin:0;
+    }
+
+    .githubButton button{
+        margin:15px 0;
+    }
+
+    .githubButton a{
+        font-size: 14px;
+    }
+
+    .githubButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+    .projectBanner{
+        flex-direction: column;
+    }
+
+    .projectHeading{
+        padding:10px;
+    }
+
+    .projectTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    .projectImage img{
+        width:400px;
+        margin:0;
+    }
+
+    .githubButton button{
+        margin:15px 0;
+    }
+
+    .githubButton a{
+        font-size: 14px;
+    }
+
+    .githubButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1024px){
+    .projectBanner{
+        flex-direction: column;
+    }
+
+    .projectHeading{
+        padding:10px;
+    }
+
+    .projectTitle{
+        padding:0;
+        font-size: 80px;
+    }
+
+    .projectImage img{
+        width:600px;
+        margin:0;
+    }
+
+    .githubButton button{
+        margin:15px 0;
+    }
+
+    .githubButton a{
+        font-size: 18px;
+    }
+
+    .githubButton img{
+        width:25px;
+    }
+}
