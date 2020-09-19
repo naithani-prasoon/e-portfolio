@@ -62,7 +62,7 @@ input[type="text"]:focus{
     height:100px;
 }
 
-input[type="submit"]{
+.contactForm form button{
     background-color: #187bca;
     color:white;
     font-weight: bold;
@@ -71,6 +71,11 @@ input[type="submit"]{
     transform: translateX(10px);
     transition: 0.4s ease-in-out;
     border:none;
+    width:400px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 input[type="submit"]:hover{
@@ -92,11 +97,11 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
-    input{
+    input,button{
         width:280px;
         font-size: 14px;
     }
-
+    
     .contactImage{
         display:initial;
     }
