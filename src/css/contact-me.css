@@ -97,7 +97,12 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
-    input,button{
+    input{
+        width:280px;
+        font-size: 14px;
+    }
+
+    .contactForm form button{
         width:280px;
         font-size: 14px;
     }
