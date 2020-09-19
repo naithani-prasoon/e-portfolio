@@ -97,6 +97,10 @@ input[type="submit"]:hover{
         font-size: 14px;
     }
 
+    .contactImage{
+        display:initial;
+    }
+
     .contactImage img{
         width:200px;
         margin:0 auto;
