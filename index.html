@@ -33,8 +33,8 @@
         <figure>
             <p>Prasoon Naithani</p>
             <div class = "tabsBanner">
-                <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpens">About Me</button>
-                <button class="tablinks" onclick="openTab(event, 'experience')" id="defaultOpen">Experience</button>
+                <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">About Me</button>
+                <button class="tablinks" onclick="openTab(event, 'experience')" id="defaultOpens">Experience</button>
                 <button class="tablinks" onclick="openTab(event, 'projects')" id="defaultOpens">Projects</button>
             </div>    
         </figure>
@@ -46,16 +46,13 @@
                     <img src="src/media/exit.svg" id="exitButton" onclick="closeNav()">
                 </li>
                 <li>
-                    <a href="#">Home</a>
+                    <button class="tablinks" onclick="openTab(event, 'aboutMe'), closeNav()" id="defaultOpen">About Me</button>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <button class="tablinks" onclick="openTab(event, 'experience'), closeNav()" id="defaultOpens">Experience</button>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <button class="tablinks" onclick="openTab(event, 'projects'), closeNav()" id="defaultOpens">Projects</button>
                 </li>
             </ul>
         </nav>
@@ -76,7 +73,7 @@
                         </div>
                     </div>    
                     <div class="heroButtons">
-                        <button class="primaryButton" onclick="openTab(event, 'experience')">Resume</button>
+                        <button class="primaryButton"><a href="" style="text-decoration: none; color:white;">Resume</a></button>
                         <button class="secondaryButton" onclick="openTab(event, 'projects')">Projects</button>
                     </div>
                 </div>
@@ -434,7 +431,7 @@
                         Raul Avila eCommerce
                     </div>
                     <div class="projectCardButtons">
-                        <a href=""><img src="src/media/github_icon.svg"></a>
+                        <a href="https://github.com/naithani-prasoon"><img src="src/media/github_icon.svg"></a>
                         <button><a href="">View Site</a></button>
                     </div>
                 </div>
@@ -446,7 +443,7 @@
                         Exchange Rate Webapp
                     </div>
                     <div class="projectCardButtons">
-                        <a href=""><img src="src/media/github_icon.svg"></a>
+                        <a href="https://github.com/naithani-prasoon"><img src="src/media/github_icon.svg"></a>
                     </div>
                 </div>
                 <div class="projectCard">
@@ -457,8 +454,8 @@
                         Developer Student Club Website
                     </div>
                     <div class="projectCardButtons">
-                        <a href=""><img src="src/media/github_icon.svg"></a>
-                        <button><a href="">View Site</a></button>
+                        <a href="https://github.com/naithani-prasoon"><img src="src/media/github_icon.svg"></a>
+                        <button><a href="https://dscub.github.io">View Site</a></button>
                     </div>
                 </div>
                 <div class="projectCard">
@@ -469,7 +466,7 @@
                         Tic-Tac-Toe Turtle Game
                     </div>
                     <div class="projectCardButtons">
-                        <a href=""><img src="src/media/github_icon.svg"></a>
+                        <a href="https://github.com/naithani-prasoon"><img src="src/media/github_icon.svg"></a>
                     </div>
                 </div>
                 <div class="projectCard">
@@ -480,7 +477,7 @@
                         CSE 116 MMO Game
                     </div>
                     <div class="projectCardButtons">
-                        <a href=""><img src="src/media/github_icon.svg"></a>
+                        <a href="https://github.com/naithani-prasoon"><img src="src/media/github_icon.svg"></a>
                     </div>
                 </div>
             </div>

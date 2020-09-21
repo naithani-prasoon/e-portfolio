@@ -34,10 +34,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.heroButtons .primaryButton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
 .heroButtons .secondaryButton:hover{
     background-color:#187bca;
     color:white;
     cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
 }
 
 .tabsBanner{

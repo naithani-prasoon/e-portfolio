@@ -77,6 +77,12 @@
     border: none;
     border-radius: 5px;
     margin-left: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.projectCardButtons button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
 }
 
 .projectCardButtons button a{

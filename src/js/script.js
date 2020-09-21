@@ -37,7 +37,7 @@ document.getElementById("defaultSkillOpen").click();
 
 
 function openNav() {
-    document.getElementById("contentHam").style.height = "100%";
+    document.getElementById("contentHam").style.height = "50%";
 }
 
 function closeNav() {

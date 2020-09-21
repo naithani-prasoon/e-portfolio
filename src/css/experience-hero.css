@@ -65,6 +65,16 @@
     fill: white;
 }
 
+#linkedinButton:hover{
+    background-color: #187bca;
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
+#linkedinButton:hover a{
+    color:white;
+}
+
 .resumeButton a{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
