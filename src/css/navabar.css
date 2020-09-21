@@ -113,7 +113,7 @@ nav ul::-webkit-scrollbar{
 
     .exitButton{
         margin-bottom: 1em;
-        margin: 20% 20% 0% 20%;
+        margin: 50px 50px 0 50px;
         text-align: right;
     }
 
@@ -173,7 +173,7 @@ nav ul::-webkit-scrollbar{
     }
 }
 
-@media only screen and (min-width:769px) and (max-width:900px){
+@media only screen and (min-width:769px) and (max-width:900px){     
     figure{
         display: none;
     }
