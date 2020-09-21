@@ -19,7 +19,7 @@
 }
 
 .experienceInfoTitle{
-    flex:1;
+    flex:unset;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -68,8 +68,7 @@
 
 .experienceAboutBox{
     margin:0 40px;
-    width:100%;
-    flex:1;
+    width:600px;
 }
 
 .experienceInfo{
@@ -79,23 +78,22 @@
     padding:10px 25px;
 }
 
-.abstractSectionVertical{
+.experienceBox .backgroundCardText{
     position: absolute;
-    height: 100%;
-    width:600px;
-    top:150px;
-    left:10px;
-}
-
-.abstractText{
-    width:100%;
-    text-align: left;
-    font-size:55px;
-    opacity: 0.1;
+    z-index: -1;
+    opacity: 0.05;
+    font-size: 300px;
+    bottom:0px;
+    left:80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    text-align: right;
+    width: 100px;
 }
 
 @media only screen and (max-width:640px){
-    .abstractSectionVertical{
+    .experienceBox .backgroundCardText{
         display: none;
     }
 
@@ -140,6 +138,10 @@
         width:90px;
         height: 90px;
     }
+
+    .experienceAboutBox{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:641px) and (max-width:768px){
@@ -147,7 +149,11 @@
         font-size: 14px;
     }
 
-    .abstractSectionVertical{
+    .experienceAboutBox{
+        width: 100%;
+    }
+    
+    .experienceBox .backgroundCardText{
         display: none;
     }
 }
@@ -157,7 +163,7 @@
         font-size: 14px;
     }
 
-    .abstractSectionVertical{
+    .experienceBox .backgroundCardText{
         display: none;
     }
 
@@ -168,13 +174,17 @@
     .experienceBox{
         max-width:800px;
     }
+    .experienceAboutBox{
+        width: 100%;
+    }
 }
 
 
 @media only screen and (min-width:901px) and (max-width:1024px){
-    .abstractSectionVertical{
-        display: none;
+    .experienceBox .backgroundCardText{
+        width: 50px;
     }
+
 
     .experienceBox{
         max-width: 920px;
@@ -186,8 +196,8 @@
 }
 
 @media only screen and (min-width:1025px) and (max-width:1200px){
-    .abstractSectionVertical{
-        display: none;
+    .experienceBox .backgroundCardText{
+        width: 50px;
     }
 
     .experienceBox{

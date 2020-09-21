@@ -51,7 +51,7 @@ input{
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     color:#187bca;
-    font-weight: bold;
+
 }
 
 input[type="text"]:focus{
@@ -65,14 +65,13 @@ input[type="text"]:focus{
 .contactForm form button{
     background-color: #187bca;
     color:white;
-    font-weight: bold;
     border-radius:5px;
     padding:15px;
     transform: translateX(10px);
     transition: 0.4s ease-in-out;
     border:none;
     width:400px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 

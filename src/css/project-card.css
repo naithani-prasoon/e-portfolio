@@ -7,15 +7,14 @@
 .backgroundCardText{
     position: absolute;
     z-index: -1;
-    opacity: 0.1;
-    font-size: 200px;
-    bottom:100px;
+    opacity: 0.05;
+    font-size: 250px;
+    bottom:-80px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transform: rotate(-90deg);
     text-align: right;
     width: 200px;
-    
 }
 
 .projectCards{
@@ -24,7 +23,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* background:rgba(24,123,202,0.05); */
     padding:40px 0;
 }
 
@@ -92,8 +90,13 @@
         display: none;
     }
 
+
     .projectCards{
         flex-direction: column;
+    }
+
+    .projectCard{
+        width:300px;
     }
 
     .projectCardSection{

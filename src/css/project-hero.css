@@ -66,6 +66,7 @@
 @media only screen and (max-width:640px){
     .projectBanner{
         flex-direction: column;
+        padding:40px 0;
     }
 
     .projectHeading{
