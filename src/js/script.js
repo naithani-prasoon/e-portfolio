@@ -1,3 +1,4 @@
+let defaultTab = "defaultOpen"
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -9,10 +10,14 @@ function openTab(evt, tabName) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(tabName).style.display = "block";
+    if(tabName === 'experience'){
+      defaultTab = "secondaryExp" ;
+      console.log(defaultTab)
+    }
     evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
+document.getElementById(defaultTab).click();
 
 function openSkillTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -38,3 +43,5 @@ function openNav() {
 function closeNav() {
    document.getElementById("contentHam").style.height = "0%";
 }
+
+

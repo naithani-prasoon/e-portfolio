@@ -1,0 +1,200 @@
+.experienceBox{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:30px auto;
+    padding:80px 0;
+    position: relative;
+}
+
+.rightExperienceBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.experienceInfoTitle{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.experienceInfoHeading{
+    font-size: 40px;
+    width:300px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.experienceDate{
+    font-weight: bolder;
+    color:#187bca;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+
+.experienceOrg{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.experienceLocation{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: rgb(200,180,180);
+}
+
+.experienceInfoTitle .backgroundShape{
+    width:100px;
+    height:100px;
+    border-radius: 500px;
+    position: absolute;
+    background-color:#187bca;
+    opacity: 0.1;
+    z-index: -1;
+    transform: translate(0px,-40px);
+}
+
+.experienceAboutBox{
+    margin:0 40px;
+    width:100%;
+    flex:1;
+}
+
+.experienceInfo{
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding:10px 25px;
+}
+
+.abstractSectionVertical{
+    position: absolute;
+    height: 100%;
+    width:600px;
+    top:150px;
+    left:10px;
+}
+
+.abstractText{
+    width:100%;
+    text-align: left;
+    font-size:55px;
+    opacity: 0.1;
+}
+
+@media only screen and (max-width:640px){
+    .abstractSectionVertical{
+        display: none;
+    }
+
+    .experienceBox{
+        padding:0;
+    }
+
+    .rightExperienceBox{
+        flex-direction: column;
+        margin:30px;
+    }
+
+    .experienceInfoHeading{
+        font-size: 30px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .experienceDate{
+        font-size: 16px;
+    }
+
+    .experienceLocation{
+        font-size: 16px;
+    }
+
+    .experienceOrg{
+        font-size: 16px;
+    }
+
+    .experienceInfo{
+        font-size: 14px;
+    }
+
+    .experienceInfoTitle{
+        align-items: center;
+        width: 100%;
+        margin:10px 25px;
+    }
+
+    .experienceInfoTitle .backgroundShape{
+        width:90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px){
+    .experienceInfo{
+        font-size: 14px;
+    }
+
+    .abstractSectionVertical{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+    .experienceInfo{
+        font-size: 14px;
+    }
+
+    .abstractSectionVertical{
+        display: none;
+    }
+
+    .experienceInfoTitle{
+        flex: unset;
+    }
+
+    .experienceBox{
+        max-width:800px;
+    }
+}
+
+
+@media only screen and (min-width:901px) and (max-width:1024px){
+    .abstractSectionVertical{
+        display: none;
+    }
+
+    .experienceBox{
+        max-width: 920px;
+    }
+
+    .experienceInfoTitle{
+        flex:unset;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .abstractSectionVertical{
+        display: none;
+    }
+
+    .experienceBox{
+        max-width: 1000px;
+    }
+
+    .experienceInfoTitle{
+        flex:unset;
+    }
+}

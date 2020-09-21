@@ -1,0 +1,210 @@
+.experienceBanner{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0 40px 0;
+}
+
+.experienceImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.experienceImage img{
+    width:500px;
+    margin-right: 60px;
+}
+
+.experienceTitle{
+    font-size: 80px;
+    width:100%;
+    padding:20px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.resumeButton{
+    text-align: center;
+    width:100%;
+    margin:0 auto;
+}
+
+.resumeButton button{
+    background-color: #187bca;
+    color:white;
+    padding:10px 25px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+#linkedinButton{
+    margin-left: 15px;
+    color: #187bca;
+    background: white;
+    border: 2px solid #187bca;
+    position: relative;
+}
+
+#linkedinButton a{
+    color:#187bca;
+    margin-left: 15px;
+}
+
+#linkedinButton img{
+    width: 20px;
+    padding:0 5px 0 0;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    fill: white;
+}
+
+.resumeButton a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+.resumeButton button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width:640px){
+    .experienceBanner{
+        flex-direction: column;
+    }
+
+    .experienceHeading{
+        padding:10px;
+    }
+
+    .experienceTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    #linkedinButton{
+        margin:0;
+    }
+
+    .experienceImage img{
+        width:300px;
+        margin:0;
+    }
+
+    .resumeButton button{
+        margin:15px 0;
+    }
+
+    .resumeButton a{
+        font-size: 14px;
+    }
+
+    .resumeButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px){
+    .experienceBanner{
+        flex-direction: column;
+    }
+
+    .experienceHeading{
+        padding:10px;
+    }
+
+    .experienceTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    .experienceImage img{
+        width:400px;
+        margin:0;
+    }
+
+    .resumeButton button{
+        margin:15px 0;
+    }
+
+    .resumeButton a{
+        font-size: 14px;
+    }
+
+    .resumeButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+    .experienceBanner{
+        flex-direction: column;
+    }
+
+    .experienceHeading{
+        padding:10px;
+    }
+
+    .experienceTitle{
+        padding:0;
+        font-size: 40px;
+    }
+
+    .experienceImage img{
+        width:400px;
+        margin:0;
+    }
+
+    .resumeButton button{
+        margin:15px 0;
+    }
+
+    .resumeButton a{
+        font-size: 14px;
+    }
+
+    .resumeButton img{
+        width:25px;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1024px){
+    .experienceBanner{
+        flex-direction: column;
+    }
+
+    .experienceHeading{
+        padding:10px;
+    }
+
+    .experienceTitle{
+        padding:0;
+        font-size: 80px;
+    }
+
+    .experienceImage img{
+        width:600px;
+        margin:0;
+    }
+
+    .resumeButton button{
+        margin:15px 0;
+    }
+
+    .resumeButton a{
+        font-size: 18px;
+    }
+
+    .resumeButton img{
+        width:25px;
+    }
+}

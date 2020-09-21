@@ -23,7 +23,7 @@
     background-color: #187bca;
     font-family: 'Poppins', sans-serif;
     transition: 0.4s ease-in-out;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .secondaryButton{
@@ -33,7 +33,7 @@
     background-color: transparent;
     transition: 0.4s ease-in-out;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .heroButtons .secondaryButton:hover{
@@ -92,7 +92,7 @@
     .subHeading .currentPosition{
         font-size:14px; 
         padding: 10px 0;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -160,7 +160,7 @@
     .subHeading .currentPosition{
         font-size:18px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -233,7 +233,7 @@
     .subHeading .currentPosition{
         font-size:18px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -306,7 +306,7 @@
     .subHeading .currentPosition{
         font-size:18px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -381,7 +381,7 @@
     .subHeading .currentPosition{
         font-size:20px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -452,7 +452,7 @@
     .subHeading .currentPosition{
         font-size:20px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
@@ -518,7 +518,7 @@
     .subHeading .currentPosition{
         font-size:20px; 
         padding-bottom: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .subHeading .objectiveSpan{
