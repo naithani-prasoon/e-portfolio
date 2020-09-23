@@ -10,10 +10,18 @@ function openTab(evt, tabName) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(tabName).style.display = "block";
-    if(tabName === 'experience'){
-      defaultTab = "secondaryExp" ;
-      console.log(defaultTab)
+
+    console.log(tabName);
+
+    
+    
+    let url = "/"+ tabName;
+
+    if(tabName !== 'aboutMe'){
+      let stateID = {id:'100'};
+      window.history.pushState(stateID,tabName,url);
     }
+
     evt.currentTarget.className += " active";
 }
 
@@ -31,10 +39,6 @@ function openSkillTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "flex";
   evt.currentTarget.className += " active";
-
-  let url = "/"+ toString(tabName);
-  let stateID = {id:'100'};
-  window.history.replaceState(stateID,'Page',url);
 
 }
 
