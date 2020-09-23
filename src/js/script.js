@@ -32,13 +32,13 @@ function openSkillTab(evt, tabName) {
   document.getElementById(tabName).style.display = "flex";
   evt.currentTarget.className += " active";
 
-  let url = '/'+ tabName;
+  let url = "/"+ toString(tabName);
 
-  if(!(tabName == 'aboutMe')){
-    let state = {id:'100'};
-    window.history.pushState(state,tabName,url);
+  if(tabName !== 'aboutMe'){
+    let stateID = {id:'100'};
+    window.history.pushState(stateID,tabName,url);
   }
-  
+
 }
 
 document.getElementById("defaultSkillOpen").click();
