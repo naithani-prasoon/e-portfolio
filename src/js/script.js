@@ -31,6 +31,9 @@ function openSkillTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "flex";
   evt.currentTarget.className += " active";
+
+  let newUrl  = new URL('https://prasoonnaithani.com');
+  newUrl.append(tabName,'1');
 }
 
 document.getElementById("defaultSkillOpen").click();
