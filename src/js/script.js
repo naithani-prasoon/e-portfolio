@@ -16,10 +16,13 @@ function openTab(evt, tabName) {
     
     
     let url = "/"+ tabName;
+    let stateID = {id:'100'};
 
     if(tabName !== 'aboutMe'){
-      let stateID = {id:'100'};
       window.history.pushState(stateID,tabName,url);
+    }
+    else{
+      window.history.pushState(stateID,tabName,'/')
     }
 
     evt.currentTarget.className += " active";
