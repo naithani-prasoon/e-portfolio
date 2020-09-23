@@ -8,22 +8,19 @@ function openTab(evt, tabName) {
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
+
     }
     document.getElementById(tabName).style.display = "block";
 
-    console.log(tabName);
+    // let url = "/"+ tabName;
+    // let stateID = {id:'100'};
 
-    
-    
-    let url = "/"+ tabName;
-    let stateID = {id:'100'};
-
-    if(tabName !== 'aboutMe'){
-      window.history.pushState(stateID,tabName,url);
-    }
-    else{
-      window.history.pushState(stateID,tabName,'/')
-    }
+    // if(tabName !== 'aboutMe'){
+    //   window.history.pushState(stateID,tabName,url);
+    // }
+    // else{
+    //   window.history.pushState(stateID,tabName,'/')
+    // }
 
     evt.currentTarget.className += " active";
 }
