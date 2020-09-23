@@ -33,11 +33,8 @@ function openSkillTab(evt, tabName) {
   evt.currentTarget.className += " active";
 
   let url = "/"+ toString(tabName);
-
-  if(tabName !== 'aboutMe'){
-    let stateID = {id:'100'};
-    window.history.pushState(stateID,tabName,url);
-  }
+  let stateID = {id:'100'};
+  window.history.replaceState(stateID,'Page',url);
 
 }
 
