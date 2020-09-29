@@ -6,6 +6,7 @@
 .skillsInfo{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .skillsHeading{
@@ -34,11 +35,30 @@
     opacity:0.1;
     border-radius: 50px;
     transform: translateX(-20px);
+    animation: slideUp 1s;
 }
 
 .skillTab div.active p{
     font-weight: bold;
 }
+
+.tabDetails{
+    animation: slideUpText 1.5s;
+}
+
+/* .skillBackgroundText{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.05;
+    font-size: 100px;
+    bottom:50px;
+    left:0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    text-align: right;
+    width: 100px;
+} */
 
 @media only screen and (max-width:640px){
 
@@ -463,8 +483,6 @@
         width:100%;
         margin: 80px auto;
     }
-
-
 
     .skillsListed{
         flex:1;

@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.aboutBanner{
+    position: relative;
+}
+
 .tabcontent{
     display: none;
     width:100%;
@@ -52,6 +56,18 @@
 
 .tabsBanner button.active{
     background-color: rgba(0,0,0,0.05);
+}
+
+.scrollDown{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:rgb(180,200,200);
+    transform: rotate(90deg);
+    text-align: right;
+    position: absolute;
+    left:-30px;
+    bottom:50px;
+    font-size: 10px;
 }
 
 @media only screen and (max-width:640px){
