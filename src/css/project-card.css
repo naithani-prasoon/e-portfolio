@@ -54,6 +54,13 @@
     
 }
 
+.languagesUsed{
+    font-size:12px;
+    color: rgb(180,180,180);
+    font-family: 'Poppins', sans-serif;
+    padding:10px 0;
+}
+
 .projectCardButtons{
     margin:10px 0;
     display: flex;
