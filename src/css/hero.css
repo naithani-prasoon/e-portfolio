@@ -51,7 +51,8 @@
 }
 
 .tabsBanner{
-    text-align: center;
+    text-align: right;
+    margin-right: 60px;
 }
 
 .tabsBanner button.active{
