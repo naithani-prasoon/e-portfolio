@@ -53,4 +53,8 @@ function closeNav() {
    document.getElementById("contentHam").style.height = "0%";
 }
 
+function closeCurrentWork(){
+  document.getElementById("currentProject").style.display = "none"
+}
+
 

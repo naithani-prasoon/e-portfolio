@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="src/css/experience-box.css">
     <link rel="stylesheet" href="src/css/project-hero.css">
     <link rel="stylesheet" href="src/css/project-card.css">
+    <link rel="stylesheet" href="src/css/current-project.css">
     <link rel="stylesheet" href="src/css/animations.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -33,9 +34,9 @@
         <figure>
             <h1>Prasoon Naithani</h1>
             <div class = "tabsBanner">
-                <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen"><a href="#aboutMe" style="text-decoration: none; color:black;">About Me</a></button>
+                <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpens"><a href="#aboutMe" style="text-decoration: none; color:black;">About Me</a></button>
                 <button class="tablinks" onclick="openTab(event, 'experience')" id="defaultOpens"><a href="#experience" style="text-decoration: none; color:black;">Experience</a></button>
-                <button class="tablinks" onclick="openTab(event, 'projects')" id="defaultOpens"><a href="#projects" style="text-decoration: none; color:black;">Projects</a></button>
+                <button class="tablinks" onclick="openTab(event, 'projects')" id="defaultOpen"><a href="#projects" style="text-decoration: none; color:black;">Projects</a></button>
             </div>    
         </figure>
         <figcaption>Prasoon Naithani</figcaption>
@@ -122,9 +123,6 @@
         </div>
         <div class="skillsBanner">
             <div class="skillsInfo">
-                <!-- <div class="skillBackgroundText">
-                    SKILLS
-                </div> -->
                 <div class="skillsHeading">
                     <img src="src/media/undraw_stepping_up_g6oo.svg" alt="Skill Progress">
                     <div>Skills and Courses.</div>
@@ -174,7 +172,7 @@
                                 <p>MS Office</p>
                             </div>
                             <div class="skill">
-                                <p>Adb Photoshop</p>
+                                <p>Django </p>
                             </div>
                             <div class="skill">
                                 <p>Adb PremierPro</p>
@@ -377,10 +375,12 @@
                 </div>
                 <div class="experienceAboutBox">
                     <div class="experienceInfo">
-                        Provided general customer service to patrons of Public Computing Sites across the campus.
-                        Managed printers and gave computing support to those who were in need.
-                        Handled networking of more than 100 computing stations located all around the campus.
-                        Maintained inventory.
+                        Being a part of the Round Square Service Project assistance venture, facilitated by the Scindia School permitted me to clean,
+                        remake/construct a sewer framework all over the rural zones of Nathon Ka Pura. We likewise got the chance to empower the women
+                        of the village, by giving the ladies crude materials to stitch, and sell; all the money that originated 
+                        from the selling cycle was put into the benefit of ladies. Moreover, we developed 2 toilets, from scratch 
+                        for the village's school which was in the provincial territory.
+        
                     </div>
                 </div>
             </div>
@@ -504,6 +504,16 @@
                     <div class="projectCardButtons">
                         <a href="https://github.com/naithani-prasoon" target="blank"><img src="src/media/github_icon.svg" alt ="Github Icon"></a>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="currentProject" id="currentProject">
+            <div class="currentWork">
+                <div class="currentText">
+                    Currently developing an e-commerce web app with Django Framework. 
+                </div>
+                <div class="currentClose">
+                    <img src="src/media/exit.svg" onclick="closeCurrentWork()">
                 </div>
             </div>
         </div>
