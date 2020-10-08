@@ -1,4 +1,7 @@
-let defaultTab = "defaultOpen"
+/* 
+Code by Prasoon Naithani
+ */
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,20 +15,10 @@ function openTab(evt, tabName) {
     }
     document.getElementById(tabName).style.display = "block";
 
-    // let url = "/"+ tabName;
-    // let stateID = {id:'100'};
-
-    // if(tabName !== 'aboutMe'){
-    //   window.history.pushState(stateID,tabName,url);
-    // }
-    // else{
-    //   window.history.pushState(stateID,tabName,'/')
-    // }
-
     evt.currentTarget.className += " active";
 }
 
-document.getElementById(defaultTab).click();
+document.getElementById('defaultOpen').click();
 
 function openSkillTab(evt, tabName) {
   var i, tabcontent, tablinks;

@@ -1,3 +1,7 @@
+/* 
+Code by Prasoon Naithani
+ */
+
 .skillsBanner{
     padding:40px 0 40px 0;
     width:100%;
@@ -45,20 +49,6 @@
 .tabDetails{
     animation: slideUpText 1.5s;
 }
-
-/* .skillBackgroundText{
-    position: absolute;
-    z-index: -1;
-    opacity: 0.05;
-    font-size: 100px;
-    bottom:50px;
-    left:0px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    transform: rotate(-90deg);
-    text-align: right;
-    width: 100px;
-} */
 
 @media only screen and (max-width:640px){
 
