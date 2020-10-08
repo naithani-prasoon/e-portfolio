@@ -34,8 +34,8 @@
 
 @media(max-width:768px) and (min-width:641px){
     .currentProject{
-        bottom: 10%;
-        transform: translate(-50%,10%);
+        bottom: 20%;
+        transform: translate(-50%,20%);
     }
 }
 
